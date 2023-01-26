@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+.left{
+    height: 100%;
+    display: grid;
+    flex-direction: column;
+    background-color: rgb(247, 240, 240);
+}
+h3{
+    padding-top: 40px;
+}
+.right{
+    margin: 5px;
+    width: 50%;
+}
+img{
+    margin-top: 5px;
+    width: 65%;
+}
+button{
+    width: 40%;
+    background: rgb(228, 210, 223);
+    border: black;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+#text{
+    font-size: 50px;
+}
+#diff{
+    color: rgb(178, 155, 233);
+    font-size: 70px;
+}

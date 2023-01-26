@@ -1,0 +1,53 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Calender {
+    background-color: bisque;
+    max-width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.month {
+    text-align: center;
+    background-color: azure;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border: 2px solid green;
+
+
+}
+
+table,
+th,
+td {
+    width: 98%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+tr,
+th,
+td {
+    padding: 15px;
+}
+
+th {
+    background-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    background-color: white;
+    font-family: arial;
+
+}
+
+tr {
+    background-color: #fff;
+}
